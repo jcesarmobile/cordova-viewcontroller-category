@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:rim="http://www.blackberry.com/ns/widgets"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-viewcontroller-category"
+    version="1.0.0">
+    <name>ViewControllerCategory</name>
+    <description>Cordova ViewController Category</description>
+    <license>MIT</license>
+    <keywords>cordova,viewcontroller,category</keywords>
+    <engines>
+            <engine name="cordova" version=">=3.0.0" />
+    </engines>
+
+    <!-- ios -->
+    <platform name="ios">
+        <header-file src="src/ios/MainViewController+Appear.h" />
+        <source-file src="src/ios/MainViewController+Appear.m" />
+    </platform>
+</plugin>
